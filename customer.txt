@@ -1,0 +1,2 @@
+CustomerId||CustomerName||CustomerNRIC||CustomerAddress||CustomerPhone
+C001||Tuck||980818-14-5713||Putra Heights||019-2597062
