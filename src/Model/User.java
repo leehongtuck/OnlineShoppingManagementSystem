@@ -9,4 +9,16 @@ public abstract class User {
         this.username = username;
     }
 
+    public User(String username){
+        this.userId = Utility.generateId("user.txt", "U");
+        this.username = username;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public String getUsername() {
+        return username;
+    }
 }
